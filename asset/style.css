@@ -1,0 +1,167 @@
+body{
+    background-color: #fff;
+}
+
+.container{
+    width: 100%;
+}
+
+.header{
+    width: 100%;
+    height: 600px;
+    background-image: url(../image/penetapan-komponen-cadangan_ratio-16x9.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -120px;
+    position: relative;
+}
+
+.header-content{
+    width: 400px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+    color: #fff;
+}
+
+.header-content ul li{
+    float: left;
+    margin-right: 30px;
+    text-decoration: none;
+    margin-top: 10px;
+    list-style: none;
+}
+
+.register{
+    padding: 10px;
+    background-color: aqua;
+    border-radius: 20px;
+}
+
+.register:hover{
+    background-color: red;
+}
+
+.form{
+    padding: 10px;
+}
+
+.Trimatra{
+    width: 100%;
+    height: 200px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+.Trimatra h1{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+}
+
+.list ul li{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-right: 20px;
+    list-style: none;
+}
+
+.list img{
+    width: 100%;
+    height: 50px;
+}
+
+.Pembina{
+    width: 100%;
+    height: 300px;
+    justify-content: center;
+}
+
+.header-pembina{
+    width: 100%;
+    margin-left: 50px;
+}
+
+.Pembina-Komscrad{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pembina-1,.pembina-2,.pembina-3{
+    width: 30%;
+}
+
+.Pembina-Komscrad img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.pembina-2 img{
+    background-color: red;
+}
+
+.gambar-1,.gambar-2,.gambar-3{
+    float: left;
+}
+
+.tentang-pembina-1,.tentang-pembina-2,.tentang-pembina-3,.h3{
+    float: left;
+    margin-left: 50px;
+}
+
+.informasi{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    background-color: #4E6C50;
+}
+
+.informasi-img{
+    width: 50%;
+}
+
+.informasi-img img{
+    width: 350px;
+    height: 250px;
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+    transform: rotate(-8deg);
+    border: 2px solid white;
+    box-shadow: 5px 10px;
+    border-radius: 20px;
+}
+
+.keterangan{
+    width: 50%;
+    color: #fff;
+    margin-right: 30px;
+}
+
+.keterangan h1{
+    margin-top: 100px;
+    text-align: center;
+}
+
+.keterangan p{
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    background-color: #395144;
+    color: #fff;
+}
